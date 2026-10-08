@@ -1,0 +1,7 @@
+policy,total_runs,mean_gross_energy_savings_pct,mean_net_energy_savings_pct,std_net_energy_savings_pct,mean_latency_reduction_pct,mean_norm_rel_error,budget_compliance_rate_pct,mean_overhead_pct_of_consumed_energy,model_type
+exact_only,90,0.00%,0.00%,0.00%,0.00%,0.000000e+00,100.00%,0.00%,Analytical CostModelConfig (Modelled)
+fixed_a1,90,59.56%,59.56%,0.00%,37.50%,1.895685e-04,100.00%,0.00%,Analytical CostModelConfig (Modelled)
+fixed_a2,90,84.56%,84.56%,0.00%,62.50%,2.966659e-03,93.33%,0.00%,Analytical CostModelConfig (Modelled)
+fixed_a3,90,92.65%,92.65%,0.00%,75.00%,1.600871e-02,60.00%,0.00%,Analytical CostModelConfig (Modelled)
+resource_only,90,37.99%,37.96%,29.59%,24.64%,6.362235e-04,100.00%,0.08%,Analytical CostModelConfig (Modelled)
+full_adaptive,90,61.08%,49.13%,16.87%,43.05%,3.891994e-03,100.00%,22.16%,Analytical CostModelConfig (Modelled)

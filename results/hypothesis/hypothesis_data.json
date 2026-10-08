@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-08T15:07:33.931224",
+    "total_h1_runs": 540,
+    "total_h2_comparisons": 90,
+    "total_h3_evaluations": 36,
+    "seeds_tested": [
+      20260408,
+      42,
+      12345,
+      999,
+      777
+    ],
+    "cost_model_notice": "Energy, latency, and resource metrics are modelled software estimates based on CostModelConfig and ResourceConfig, not physical FPGA measurements."
+  },
+  "summary": [
+    {
+      "policy": "exact_only",
+      "total_runs": 90,
+      "mean_energy_savings_pct": 0.0,
+      "std_energy_savings_pct": 0.0,
+      "mean_latency_reduction_pct": 0.0,
+      "mean_norm_rel_error": 0.0,
+      "budget_compliance_rate_pct": 100.0,
+      "mean_overhead_pct": 0.0
+    },
+    {
+      "policy": "fixed_a1",
+      "total_runs": 90,
+      "mean_energy_savings_pct": 59.558823529411775,
+      "std_energy_savings_pct": 1.924158824483385e-14,
+      "mean_latency_reduction_pct": 37.5,
+      "mean_norm_rel_error": 0.00018956853278085715,
+      "budget_compliance_rate_pct": 100.0,
+      "mean_overhead_pct": 0.0
+    },
+    {
+      "policy": "fixed_a2",
+      "total_runs": 90,
+      "mean_energy_savings_pct": 84.55882352941175,
+      "std_energy_savings_pct": 1.4210854715202004e-14,
+      "mean_latency_reduction_pct": 62.5,
+      "mean_norm_rel_error": 0.0029666586162718223,
+      "budget_compliance_rate_pct": 93.33333333333333,
+      "mean_overhead_pct": 0.0
+    },
+    {
+      "policy": "fixed_a3",
+      "total_runs": 90,
+      "mean_energy_savings_pct": 92.6470588235294,
+      "std_energy_savings_pct": 8.204640795236539e-15,
+      "mean_latency_reduction_pct": 75.0,
+      "mean_norm_rel_error": 0.01600870923597152,
+      "budget_compliance_rate_pct": 60.0,
+      "mean_overhead_pct": 0.0
+    },
+    {
+      "policy": "resource_only",
+      "total_runs": 90,
+      "mean_energy_savings_pct": 37.95744121228586,
+      "std_energy_savings_pct": 29.59229850961764,
+      "mean_latency_reduction_pct": 24.638496863799283,
+      "mean_norm_rel_error": 0.0006362234552845753,
+      "budget_compliance_rate_pct": 100.0,
+      "mean_overhead_pct": 0.07927948666355723
+    },
+    {
+      "policy": "full_adaptive",
+      "total_runs": 90,
+      "mean_energy_savings_pct": 49.12769523373177,
+      "std_energy_savings_pct": 16.87370197937512,
+      "mean_latency_reduction_pct": 43.054995519713266,
+      "mean_norm_rel_error": 0.0038919939894304805,
+      "budget_compliance_rate_pct": 100.0,
+      "mean_overhead_pct": 22.160148634776377
+    }
+  ]
+}

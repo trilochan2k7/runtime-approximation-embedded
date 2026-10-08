@@ -1,0 +1,4 @@
+workload,block_size_macs,probe_macs_per_block,mean_gross_savings_pct,mean_net_savings_pct,mean_overhead_pct_of_consumed_energy,mean_overhead_to_gross_savings_ratio,net_benefit_status
+FIR,12288,3072,59.29%,34.23%,39.22%,0.4363,BENEFICIAL
+MATMUL,184320,8000,62.67%,58.33%,10.91%,0.0704,HIGHLY BENEFICIAL
+CONV,80000,1210,69.07%,62.62%,18.23%,0.0947,HIGHLY BENEFICIAL

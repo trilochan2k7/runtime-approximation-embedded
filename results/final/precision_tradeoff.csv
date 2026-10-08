@@ -1,0 +1,5 @@
+mode,significand_bits,quantized,unit_quantization_error_bound,modelled_energy_ratio,modelled_energy_savings_pct,modelled_latency_ratio,modelled_latency_reduction_pct
+EXACT,16,False,0.000000 (Exact),1.0000,0.00%,1.0000,0.00%
+APPROX-1,10,True,9.765625e-04,0.4044,59.56%,0.6250,37.50%
+APPROX-2,6,True,1.562500e-02,0.1544,84.56%,0.3750,62.50%
+APPROX-3,4,True,6.250000e-02,0.0735,92.65%,0.2500,75.00%
